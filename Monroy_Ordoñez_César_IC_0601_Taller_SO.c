@@ -1,8 +1,9 @@
 /*En el presente código de programación se realiza lo que es el uso de la multiprogramación a partir de una variable estático que compartirán 2 procesos para incrementar 
 y decrementar ese valor al término de la ejecución de uno con el uso de la creación de hilos con pthread y la creación de un proceso en Linux con fork para ello es necesario 
 ejecución  en un sistema con distribución en Linux */
-#include <stdio.h> // declaración de librería para el uso de operaciones estándar de E/S
+
 #include <stdlib.h>// declaración de librería para la gestión de memoria dinámica y control de procesos
+#include <stdio.h> // declaración de librería para el uso de operaciones estándar de E/S
 #include <pthread.h>// declaración de librería para el manejo de hilos en c
 #include <errno.h>// declaración de biblioteca para presentar un informe en caso de un error al ejecutar el código 
 #include <unistd.h>//declaración de librería para el uso de procesos al sistema con fork en Linux
